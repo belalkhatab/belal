@@ -5,13 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="index.css">
+     <style>
+    
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 260px;
+      }
+    }
+
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+  </style>
+  <style>
+    .face {
+      width: 200px;
+      height: 200px;
+      background-color: yellow;
+      border-radius: 50%;
+      position: relative;
+      margin: 100px auto;
+    }
+
+    .eye {
+      width: 30px;
+      height: 30px;
+      background-color: black;
+      border-radius: 50%;
+      position: absolute;
+      top: 50px;
+    }
+
+    .eye.left {
+      left: 40px;
+    }
+
+    .eye.right {
+      right: 40px;
+    }
+
+    .mouth {
+      width: 100px;
+      height: 50px;
+      border-bottom: 5px solid black;
+      border-radius: 0 0 100px 100px;
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  </style>
+     
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a sample webpage.</p>
-    <h1>by eng belal khtab</h1>
-    <h1>اول موقع  اعمله   تحت رعايه بلال خطاب 
-    </h1>
-    <h3>انا بلال خطاب مهندس برمجيات</h3>
+    <h1 align="center">Welcome to My Website</h1>
+    <p align="center">This is a sample webpage.</p>
+    <h1 > NAME: belal khtab</h1>
+    <!-- <h1 align="right">اول موقع  اعمله   تحت رعايه بلال خطاب 
+    </h1> -->
+   <!-- <h3 align="right">انا بلال خطاب مهندس برمجيات</h3><!-->
+      <div class="text">متزعليش غصب عني والله </div>
+     
+  <div class="face">
+    <div class="eye left"></div>
+    <div class="eye right"></div>
+    <div class="mouth"></div>
+  </div>
+ 
 </body>
-</html>
+</html> 
+     

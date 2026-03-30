@@ -1,0 +1,22 @@
+body {
+  background-color: red;
+  color: yellow;
+}
+ody {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .text {
+      color: yellow;
+      font-size: 30px;
+      font-family: Arial;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid yellow;
+      width: 0;
+      animation: typing 4s steps(20) forwards, blink 0.7s infinite;
+    }
